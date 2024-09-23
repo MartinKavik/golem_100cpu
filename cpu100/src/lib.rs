@@ -6,6 +6,7 @@ struct Component;
 
 impl Guest for Component {
     fn start() -> String {
+        loop {}
         "Hello from cpu100!".to_owned()
     }
 }
